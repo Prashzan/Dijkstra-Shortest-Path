@@ -1,0 +1,125 @@
+.grid {
+  margin: 100px 0 0 0;
+  margin-top: 50px;
+}
+
+.bau {
+  float: left;
+}
+
+#vizbut{
+  background-color:rgba(177, 75, 138, 0.938);
+  color: white;
+  padding: 10px;
+  margin-top: 55px;
+  font-weight: bold;
+
+}
+
+#bellman{
+  background-color:rgba(177, 75, 138, 0.938);
+  color: white;
+  padding: 10px;
+  margin-top: 55px;
+  font-weight: bold;
+  margin-left: 50px;
+
+}
+
+
+ .nav-item{
+  margin-top: 8px;
+  /* margin-right: 120px;  */
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+  margin-left: 250px;
+}
+
+
+.nav-link, .dropdown-toggle{
+  color:white;
+  margin-left: 50px;
+}
+
+.navbar-text{
+  color:skyblue;
+  font-size: 17px;
+  /* font-weight: bold; */
+}
+
+#mainText > ul li {
+  margin-top: 80px;
+  display: inline-block;
+  list-style: none;
+  padding: 0 28px 0 0;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  
+}
+
+#mainText div {
+  /* border: 1px solid rgb(12, 53, 71); */
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  position: relative;
+  top: 0.35em;
+  margin: 0 0.42em;
+}
+
+.start{
+  /* border: 1px solid rgb(175, 216, 248); */
+  background-image:url(start.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /*background-color: rgb(255, 254, 106);*/
+}
+
+.target{ 
+  /*border: 1px solid rgb(175, 216, 248);*/
+  background-image: url(home.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+} 
+
+.unvisited{
+  border: 1px solid rgb(175, 216, 248);
+  background-color:white
+}
+
+.visited{
+  background-color: rgba(0, 190, 218, 0.75);
+}
+
+.visitedobject{
+  background-color: rgba(0, 217, 159, 0.75);
+}
+
+.shortest-path{
+  /*border: 1px solid rgb(175, 216, 248);*/
+  background-color: rgb(255, 254, 106);
+}
+
+.wall{
+  background-color: rgb(12, 53, 71);
+
+}
+
+#time_text{
+  margin-top: 28px;
+}
+
+#tux{
+  font-size: 60px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.foot{
+  margin-top: 25px;
+  background-color: skyblue;
+}
